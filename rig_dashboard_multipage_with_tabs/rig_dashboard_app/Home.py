@@ -1,6 +1,7 @@
 import streamlit as st
 from components.filter_bar import render_filters
 from data.load_data import load_data
+df = load_data()
 
 st.set_page_config(layout="wide", page_title="Rig Comparison Dashboard", page_icon="📊")
 
